@@ -1,0 +1,34 @@
+data:
+
+day time: 17min -- sides: 1:30min
+night time: 12:40min
+solar panel +/s -- day sides: 25kPs -- day: 50kPs
+battery cap: 45,000 kP
+extractor -/s = 50kPs
+
+Terms:
+
+Pf - Polvo de ferrita
+Mc - Metal cromático
+C - Carbono
+C+ - Carbono condensado
+Fi - Ferrita imantada
+O - oro
+
+Formulas:
+
+B(x) = x * 0.94444
+P(x) = (b * 1.0714) + x
+
+Mc(x) = 50 ( p + 2x )
+C(x) = 10 ( x + Dep)
+C+(x) = 100 b
+Fi(x) = 60 b
+O(x) = 30 p
+Pf(x) = 50 ( p + 5.5x + 1.5Dep )
+
+donde:
+b = B(x)
+p = P(x)
+Dep := "cantidad de depositos a poner"
+

@@ -1,0 +1,12 @@
+day time: 17min -- sides: 1:30min
+night time: 12:40min
+solar panel +/s -- day sides: 25kPs -- day: 50kPs
+battery cap: 45,000 kP
+extractor -/s = 50kPs
+
+Formulas:
+
+B(x) = x * 0.94444
+P(x) = (b * 1.0714) + x
+
+donde b = B(x)

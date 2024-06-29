@@ -1,0 +1,8 @@
+import src.EC;
+
+public class Main{
+    public static void main(String[] UwU){
+	EC ec = new EC(10,10);
+	System.out.println(ec);
+    }    
+}
